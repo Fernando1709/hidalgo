@@ -1,0 +1,107 @@
+
+body{
+  background-color: white;
+
+
+    }
+
+    div#registro{
+      position: relative;
+      top: 155px; right: auto;
+      margin: auto;
+      width: 50%;
+      max-width: 300px;
+      background-color: #BEE4FB;
+      padding: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+    }
+
+    div#login{
+      position: relative;
+      top: 230px; right: auto;
+      margin: auto;
+      width: 50%;
+      max-width: 300px;
+      background-color: #BEE4FB;
+      padding: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+
+
+    }
+
+
+.form_top h2{
+front_weight: bold;
+color: #red;
+fron-size: 25px;
+
+}
+
+h2 span{
+color: black;
+frnt-size: 30px;
+}
+
+.from_reg{
+  padding: 2rem;
+  display: flex;
+  flex: Direccion: column;
+  justify-content: center;
+
+}
+
+.btn_form{
+
+padding: 5px 10px;
+
+}
+
+.btn_submit, .btn_reset
+{
+padding: .2rem;
+margin: .2rem;
+border: none;
+border-bottom: solid # .2rem;
+transition: all .2s;
+
+}
+
+
+
+
+.imput:focus
+{
+border-bottom: solid red  .2rem;
+}
+.btn_submit, .btn_reset{
+  width: 40%;
+  border-bottom: none;
+  background-color: #60B9E9  ;
+
+}
+
+.btn_reset{
+background-color: #60B9E9  ;
+}
+
+.btn_submit:hover{
+  background-color: white;
+}
+.btn_reset:hover{
+  background-color:  white;
+  color: black;
+}
+
+/* estilo principal*/
+div#general{
+  box-shadow: 0 0 10px #3E454A; /*resplandor del contorno  */
+  opacity:1; /* opacidad*/
+  border-radius: 15px; /* border sin esquinas*/
+  margin: auto;
+  margin-top: 35px;/*distacia de arriba hasta en div general */
+  width:1150px;/*anchura del general*/
+  height:1000px;/*altura del general*/
+  background-color:white;/*color */
+}
